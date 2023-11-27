@@ -298,9 +298,11 @@ footer{
 }
 
 .separation{
-    width: 100%;
+    width: 80%;
     border:2px solid antiquewhite;
     margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container5{
@@ -313,7 +315,6 @@ footer{
 .footer-section3{
     width: 70%;
     height: 50px;
-    background-color: aquamarine;
     margin-left: auto;
     margin-right: auto;
     align-self: flex-end;
@@ -326,7 +327,14 @@ footer{
 
 .un-section{
     align-self: center;
-    background-color: pink;
+}
+
+.final-button{
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(137, 126, 210);
 }
 
 
