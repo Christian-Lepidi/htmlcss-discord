@@ -236,10 +236,31 @@ img{
     margin-bottom: 5px;
 }
 
+.icons{
+    max-width: 30px;
+}
+
 .nav-title{
-    text-align: center;
+    text-align: end;
     font-size: 20px;
     color: rgb(137, 126, 210) ;
+}
+
+.navigation{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: white;
+}
+
+.link-items{
+   list-style-type: none;
+}
+
+.footer-links{
+    margin-top: 20px;
+    text-align: center;
 }
 
 .h3-section{
@@ -247,10 +268,6 @@ img{
     color: rgb(137, 126, 210);
 }
 
-
-.debug{
-    border: 1px dashed black;
-}
 
 footer{
     width: 100%;
@@ -267,7 +284,6 @@ footer{
 .footer-section1{
     height: 650px;
     flex-grow: 2;
-    background-color: palevioletred;
     margin-left: auto;
     margin-top: 10px;
 }
@@ -277,7 +293,6 @@ footer{
 .footer-section2{
     height: 650px;
     flex-grow: 1;
-    background-color: aqua;
     margin-left: auto;
     margin-top: 10px;
 }
