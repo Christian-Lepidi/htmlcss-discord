@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 /*HEADER*/
 
 .header{
@@ -46,7 +50,11 @@
    width: 100%;
    height: 600px;
    display: flex;
-}  
+}
+
+.grey{
+    background-color: rgb(177, 176, 176);
+}
 
 .header-container2{
     width: 50%;
@@ -89,17 +97,16 @@
 
 
 .main-section1{
-    height: 500px;
+    min-height: 500px;
     width: 50%;
-    background-image: url(../img/item1.svg);
-    background-size: cover;
     margin-left: auto;
     align-self: center;
-    
 }
 
+
+
 .main-section2{
-    height: 500px;
+    min-height: 500px;
     width:30%;
     margin-right: auto;
     align-self: center;
@@ -108,7 +115,7 @@
 
 .initial-main-text{
    text-align: center;
-   line-height: 40px;
+   line-height: 30px;
    font-size: 35px;
    margin-top: 30px;
 }
@@ -123,44 +130,50 @@
 
 
 .main-section3{
-    height: 500px;
+    min-height: 500px;
     width:30%;
-    background-color: pink;
-    border: 1px dashed black;
     margin-left: auto;
     align-self: center;
 }
 
 .central-h2{
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 30px;
 }
 
+.p-text{
+    margin-top: 35px;
+}
+
+
 .main-section4{
-    height: 500px;
+    min-height: 500px;
     width: 40%;
-    background-image: url(../img/item2.svg);
-    background-size: cover;
     margin: auto;
     align-self: center;   
 }
 
 .main-section5{
-    height: 500px;
+    min-height: 500px;
     width:40%;
-    background-color: aqua;
-    border: 1px dashed black;
     margin-left: auto;
     align-self: center;  
 }
 
 .main-section6{
-    height: 500px;
+    min-height: 500px;
     width:30%;
-    background-color: pink;
-    border: 1px dashed black;
     margin-right: auto;
     align-self: center;
+}
+
+.h2-title6{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.p-text6{
+    margin-top: 40px;
 }
 
 .container3{
@@ -172,7 +185,7 @@
 
 .main-section7{
     width: 70%;
-    height: 800px;
+    min-height: 800px;
     background-color: green;
     border: 1px dashed black;
     margin-left: auto;
